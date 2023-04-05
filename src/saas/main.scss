@@ -1,5 +1,22 @@
+
+
 $base-color: pink;
 
-body{
-    background-color: $base-color;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 0 auto ;
+    padding: 0 160px 0;
+}
+
+//header
+
+.icon{
+    color: black;
+    width: 12px;
+    height: 17px;
 }

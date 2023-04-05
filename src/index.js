@@ -1,4 +1,3 @@
 import './saas/main.scss'
-import vika from './assets/vika.jpg'
+import './saas/fonts.scss'
 
-const hello = require('./js/hello')

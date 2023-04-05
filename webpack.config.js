@@ -1,4 +1,5 @@
 const path = require('path');
+const htmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports =  {
     mode: 'production',
@@ -32,7 +33,18 @@ module.exports =  {
             {
                 test:/\.(png|svg|jpg|jpeg|gif)$/i,
                 type: 'asset/resource'
+            },
+            {
+                test: /\.(woff|woff2|eot|ttf|otf)$/i,
+                type: 'asset/resource',
             }
         ]
-    }
+    },
+    plugins: [
+        new htmlWebpackPlugin({
+            title: 'My Web Page',
+            filename: 'index.html',
+            template: 'src/index.html'
+        })
+    ]
   };

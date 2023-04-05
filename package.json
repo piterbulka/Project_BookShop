@@ -1,7 +1,6 @@
 {
   "name": "project_bookshop",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "build": "webpack --config  webpack.config.js"
@@ -10,6 +9,7 @@
   "license": "ISC",
   "dependencies": {
     "css-loader": "^6.7.3",
+    "html-webpack-plugin": "^5.5.0",
     "sass": "^1.60.0",
     "sass-loader": "^13.2.2",
     "style-loader": "^3.3.2",
@@ -18,5 +18,14 @@
   },
   "devDependencies": {
     "webpack-dev-server": "^4.13.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piterbulka/Project_BookShop.git"
+  },
+  "bugs": {
+    "url": "https://github.com/piterbulka/Project_BookShop/issues"
+  },
+  "homepage": "https://github.com/piterbulka/Project_BookShop#readme",
+  "description": ""
 }
