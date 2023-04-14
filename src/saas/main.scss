@@ -1,5 +1,4 @@
-
-
+$base-font-family: 'Montserrat-700', sans-serif;
 $base-color: pink;
 
 *{
@@ -14,7 +13,24 @@ $base-color: pink;
 }
 
 //header
+.header__wrap{
+    display: flex;
+    justify-content: space-around;
+    padding: 47px 0 40px;
+}
+.logo{
+    font-family: $base-font-family;
+}
 
+.nav__links_list{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+.nav__links_list-elem{
+    text-decoration: none;
+    
+}
 .icon{
     color: black;
     width: 12px;
